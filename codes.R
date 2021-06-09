@@ -56,4 +56,10 @@ specdata <- read.csv(filenames[3])
 tail(specdata)
 mean(specdata$sulfate, na.rm = T)
 
-pollutantmean <- 
+pollutantmean
+
+?which
+
+nu %>%
+  which(24)
+which(nu == 24)
